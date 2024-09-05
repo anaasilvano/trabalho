@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Projetos da Lele</title>
+    <link rel="stylesheet" href="./portifolio.css">
+    <link rel="icon" href="imagens/images.png">
+</head>
+<body>
+    <header>
+        <h1>Portfólio da Lele</h1>
+        <img src="./Imagens/cocktail-svgrepo-com.svg" class="header-logo" alt="Logo">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="index.html" class="link-inicio">Início</a>
+            <a href="about.html">Sobre Mim</a>
+            <a href="contact.html">Contato</a>
+            <a href="websites">Websites</a>
+            <a href="aplicativos">Aplicativos</a>
+        </nav>
+    </header>
+
+    <section id="portfolio">
+        <div class="filters">
+            <button data-filter="all">Todos</button>
+            <button data-filter="websites">Websites</button>
+            <button data-filter="aplicativos">Aplicativos</button>
+            <button data-filter="design-grafico">Design Gráfico</button>
+        </div>
+
+        <div class="grid-container">
+            <!-- Exemplo de projeto 1 -->
+            <div class="project" data-category="websites">
+                <img src="./imagens/calculator-svgrepo-com.svg" alt="Projeto 1" class="thumbnail">
+                <div class="overlay">
+                    <h3>Projeto 1</h3>
+                    <button  href="https://github.com/anaasilvano/Calculadora." class="details-btn">Ver mais🧮</button>
+                </div>
+            </div>
+            <!-- Exemplo de projeto 2 -->
+            <div class="project" data-category="aplicativos">
+                <img src="./imagens/rpg-game-svgrepo-com.svg" alt="Projeto 2" class="thumbnail">
+                <div class="overlay">
+                    <h3>Projeto 2</h3>
+                    <button class="details-btn">Ver Detalhes</button>
+                </div>
+            </div>
+            <!-- Adicione mais projetos aqui -->
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title">Título do Projeto</h2>
+            <img id="modal-image" src="" alt="Imagem do Projeto">
+            <p id="modal-description">Descrição detalhada do projeto...</p>
+            <a id="project-link" href="" target="_blank">Ver Projeto ao Vivo</a>
+            <a id="github-link" href="" target="_blank">Ver no GitHub</a>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

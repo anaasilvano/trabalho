@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #a51291;
+}
+
+header {
+    background-image: linear-gradient(to right, #da1bda, #000);
+    color: #cb94ff;
+    padding: 10px;
+    text-align: center;
+    position: relative;}
+
+
+    
+    header nav {
+        margin-top: 10px;
+    }
+    
+    header nav a {
+        color: #cb94ff;
+        text-decoration: none;
+        margin: 0 15px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    
+    header nav a:hover {
+        background-color: #cb94ff;
+        color: #000;
+    }
+    
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 0 10px;
+    background: #f3aae1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.foto-pessoal {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.introducao-texto {
+    margin-left: 20px;
+}
+
+.habilidade {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icone-habilidade {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.barra-progresso {
+    width: 100%;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.progresso-html {
+    width: 80%; /* Ajuste o valor de acordo com o nível de habilidade */
+    height: 10px;
+    background: #8c0ed4;
+}
+
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}

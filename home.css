@@ -1,0 +1,96 @@
+/* Reset básico de margens e preenchimento */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Adiciona border-box para uma melhor gestão de espaçamento */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-image: linear-gradient(to right, #da1bda, #000);
+    color: #fdfdfd;
+    padding: 20px 10px; /* Adiciona mais padding para melhor espaçamento */
+    text-align: center;
+    position: relative; /* Adiciona position relative para o posicionamento absoluto dos links */
+}
+
+header img {
+    width: 30px; /* Ajusta a largura da imagem SVG */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 0 auto; /* Centraliza a imagem */
+}
+.logo{
+    width: 80px; /* Ajusta a largura da imagem SVG */
+    height: 80px; /* Define a altura para manter a proporção correta */
+}
+
+.instagram-img, .spotify-img, .tiktok-img {
+    width: 50px; /* Ajusta a largura dos ícones para 50px */
+    height: 50px; /* Ajusta a altura dos ícones para manter a proporção */
+    margin: 0 10px; /* Adiciona espaçamento horizontal entre ícones */
+    display: inline-block; /* Alinha os ícones horizontalmente */
+}
+
+header nav {
+    margin: 10px 0; /* Adiciona margem para o nav */
+}
+
+header a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #9d75dd;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #bd7289;
+}
+
+.link-inicio {
+    position: absolute;
+    top: 10px; /* Ajusta a posição do link para melhor alinhamento */
+    left: 10px;
+    text-decoration: none;
+    color: #dabebe;
+    font-size: 25px;
+}
+
+h3 {
+    margin: 15px 0; /* Adiciona margem para separar as seções */
+}
+
+button {
+    background-color: #4f07c4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #bd7289;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.social-links {
+    text-align: center; /* Centraliza os ícones sociais */
+}
+
+.social-links a {
+    display: inline-block; /* Mantém os links dos ícones em linha */
+    margin: 0 10px; /* Adiciona espaçamento horizontal entre os ícones */
+}

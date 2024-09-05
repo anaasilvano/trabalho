@@ -1,0 +1,126 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #da90c4;
+}
+
+header {
+    background-image: linear-gradient(to right, #da1bda, #000);
+    color: #cb94ff;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+header img {
+    width: 30px; /* Ajusta a largura da imagem SVG */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 0 auto; /* Centraliza a imagem */
+}
+.logo{
+    width: 300px; /* Ajusta a largura da imagem SVG */
+    height: 300px; /* Define a altura para manter a proporção correta */
+}
+
+nav {
+    margin: 20px;
+    text-align: left;
+}body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #da90c4;
+}
+
+header {
+    background-image: linear-gradient(to right, #da1bda, #000);
+    color: #cb94ff;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    width: 150px; /* Ajuste conforme necessário */
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    display: flex; /* Organiza os links na horizontal */
+    justify-content: center; /* Centraliza os links horizontalmente */
+}
+
+nav a {
+    margin: 0 15px;
+    color: #e037ca; /* Cor do texto dos links */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px; /* Adiciona bordas arredondadas aos links */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave para a mudança de cor */
+}
+
+nav a:hover {
+    background-color: #85106b; /* Cor de fundo ao passar o mouse */
+    color: #fff; /* Cor do texto ao passar o mouse */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.main-content {
+    padding: 20px;
+    background-color: #b0d5f8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #e98383;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+
+nav a {
+    margin: 0 15px;
+    color: #dd14b1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.main-content {
+    padding: 20px;
+    background-color: #b0d5f8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #e98383;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
